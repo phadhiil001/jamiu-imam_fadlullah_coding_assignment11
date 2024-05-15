@@ -71,11 +71,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Assignment Instructions
 
+# Command to create the docker image build
 run:
 docker image build -t jamiu-imam_fadlullah_coding_assignment11-test:latest .
 
 # An image in the current directory will be created by the code above.
 
+
+# Command to create docker container run
 run:
 docker run -dp 7775:3000 --name assignment11-container jamiu-imam_fadlullah_coding_assignment11-test:latest
 
