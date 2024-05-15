@@ -81,4 +81,4 @@ docker image build -t jamiu-imam_fadlullah_coding_assignment11:latest .
 
 # By executing the container in the background, the code shown above will free up the terminal for additional use. It also sets the container name and modifies the port. The picture that was mentioned in the initial command is then retrieved into the container.
 
-docker run -dp 7775:3000 --name jamiu-imam_fadlullah_coding_assignment11 jamiu-imam_fadlullah_coding_assignment11:lates
+docker run -dp 7775:3000 --name jamiu-imam_fadlullah_coding_assignment11 jamiu-imam_fadlullah_coding_assignment11:latest
