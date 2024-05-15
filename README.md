@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Assignment Instructions
+
+run:
+docker image build -t jamiu-imam_fadlullah_coding_assignment11-test:latest .
+
+# An image in the current directory will be created by the code above.
+
+run:
+docker run -dp 7775:3000 --name assignment11-container jamiu-imam_fadlullah_coding_assignment11-test:latest
+
+# By executing the container in the background, the code shown above will free up the terminal for additional use. It also sets the container name and modifies the port. The picture that was mentioned in the initial command is then retrieved into the container.
