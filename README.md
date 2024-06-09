@@ -69,15 +69,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### Assignment Instructions
+# Assignment Instructions
 
-# Command to create the docker image build
+### Command to create the docker image build
 
-# An image in the current directory will be created by the code above.
+### An image in the current directory will be created by the code above.
 
 docker image build -t jamiu-imam_fadlullah_coding_assignment11:latest .
 
-# Command to create docker container run
+### Command to create docker container run
 
 # By executing the container in the background, the code shown above will free up the terminal for additional use. It also sets the container name and modifies the port. The picture that was mentioned in the initial command is then retrieved into the container.
 
